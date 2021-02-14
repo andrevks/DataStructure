@@ -1,0 +1,37 @@
+Infixa 
+
+A + B * C
+A * (B+C)
+(A+B)/(C-D)
+(A+B) / (C-D) * E 
+
+
+PosFixa
+
+(AB)*+
+(BCA)+*
+AB+CD-/
+AB+CD-E*/
+
+'(', começo do parênteses, guarda na pilha
+
+ reserva os operandos em ordem
+
+ os sinais são reservados na pilha
+
+ quando o ')'(final do parênteses for encontrado), desempilhamos a pilha com os sinais até o '('
+
+
+
+PRIORIDADES
+Quando o que estiver empilhador tiver uma prioridade maior do que o que for empilhado, desempilhamos  o maior, após isso empilhamos o menor;
+
+op2 = 10
+op1 = 7
+
+Operações 
+op1 - op2
+op1 + op2
+op1 * op2
+op1 / op2
+
